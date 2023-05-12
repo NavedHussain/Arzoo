@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+// import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import "./style.css"
 
 export default function Header() {
     const [active, setActive] = useState("menu");
     const [togglerIcon, setIcon] = useState("navToggler");
-    
+
     const navToggle = () => {
         active === 'menu' ?
             setActive('menuActive menu') :
@@ -19,29 +19,36 @@ export default function Header() {
 
     console.log(active);
 
-        return (
-            <div className="headWrapper z-[1] h-[70px]">
-                <div className="header h-full ">
-                    <div className="logo">
-                        <img src="assets\logo2.png" className='w-[170px] md:w-[200px] ' alt="" />
-                    </div>
-
-                    <div className={active} >
-                        <ul className='smallText' >
-                            <li onClick={navToggle}><NavLink to={'/signup'} >Sign Up</NavLink></li>
-                            <li onClick={navToggle}><NavLink to={'/login'}
-                                className="">Log In</NavLink></li>
-                        </ul>
-                    </div>
-
-                    <div onClick={navToggle} className={togglerIcon}>
-                        <div className="line1"></div>
-                        <div className="line2"></div>
-                        <div className="line3"></div>
-                    </div>
-
+    return (
+        <div className="headWrapper z-[1] h-[70px]">
+            <div className="header h-full ">
+                <div className="logo">
+                    <img src="assets\logo2.png" className='w-[170px] md:w-[200px] ' alt="" />
                 </div>
+
+                <div className={active} >
+                    <ul className='smallText' >
+                        <li onClick={navToggle}><NavLink to={'/Home'} > Home</NavLink></li>
+                        <li onClick={navToggle}><NavLink to={'/about'} > About</NavLink></li>
+                        <li onClick={navToggle}><NavLink to={'/signup'} >Product</NavLink></li>
+                        <li onClick={navToggle}><NavLink to={'/signup'} >Contact us  </NavLink></li>
+                        <li onClick={navToggle}><NavLink to={'/login'} className="">Log In</NavLink></li>
+                    </ul>
+                </div>
+
+                <div className=" flex gap-5">
+                    <span className="block bg-black h-[50px] aspect-square img"></span>
+                    <span className="block bg-black h-[50px] aspect-square"></span>
+                </div>
+
+                <div onClick={navToggle} className={togglerIcon}>
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
+                </div>
+
             </div>
-        )
-    
+        </div>
+    )
+
 }
