@@ -25,7 +25,7 @@ const Login = () => {
 
                 {/* <button onClick={ShowPassword}>show password</button> */}
 
-                <a href="#" className=" text-[12px] text-[red] hover:underline">forgot password??</a>
+                <a href="#" className=" text-[12px] text-[#e02573] hover:underline">forgot password??</a>
                 <button type="submit" name="" value="Log in" className="px-12 rounded-[5vw] bg-[#c7c7c7]">Log in </button>
 
                 {/* <a href="#" className="">Don't have an account</a> */}

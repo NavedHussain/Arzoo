@@ -2,8 +2,9 @@
     justify-content: center;
     padding-bottom: 0px;
     position: fixed;
+    top: 0px;
     width: 100%;
-    background-color: #b9b9b900;
+    background-color: #c7c7c7;
     backdrop-filter: blur(7px);
 }
 
@@ -47,7 +48,7 @@
 .menu ul li a:hover {
     text-decoration: none;
     transform: rotate3d('20deg');
-    color: rgb(255, 0, 0);
+    color: rgb(218, 19, 175);
 }
 
 .navToggler {

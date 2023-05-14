@@ -4,6 +4,9 @@ import LandingPage from "./pages/LandingPage";
 import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
 import Home from "./pages/Home";
+import Contact from "./pages/ContactPage";
+import "./App.css"
+
 function App() {
   return (
     <>
@@ -21,6 +24,13 @@ function App() {
                  <Home />
               </CommonContainer>
             } />
+
+          <Route path="/contact"
+          element={
+            <CommonContainer>
+              <Contact/>
+            </CommonContainer>
+          } />
 
           <Route path="/login"
             element={

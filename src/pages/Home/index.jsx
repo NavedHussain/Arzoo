@@ -5,7 +5,7 @@ import "./style.css"
 const Home = () => {
     return (
         // <Wrapper>
-        <div className="container pt-[100px] p-5 min-h-[100vh] flex items-center justify-center">
+        <div className="pt-[100px] p-5 min-h-[100vh] flex items-center justify-center">
             <div className="flex flex-col md:flex-row items-center justify-center gap-5 ">
                 <div className="hero-section-data flex flex-col gap-5 md:w-2/3 md:pl-10">
 
