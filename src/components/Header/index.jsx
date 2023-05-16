@@ -12,6 +12,7 @@ import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import "./style.css"
 
+
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
@@ -88,6 +89,8 @@ export default function Header() {
                     </ul>
                 </div>
 
+               
+
                 <div className=" flex items-center gap-5">
                     <Search>
                         <SearchIconWrapper>
@@ -101,6 +104,7 @@ export default function Header() {
                     <NavLink to="/cart">
                         <ShoppingCartOutlinedIcon />
                     </NavLink>
+                    
                 </div>
 
                 <div onClick={navToggle} className={togglerIcon}>
@@ -108,9 +112,14 @@ export default function Header() {
                     <div className="line2"></div>
                     <div className="line3"></div>
                 </div>
+                
 
             </div>
+            <div className='LOGO '>
+                 <img src="" alt="" />
+                </div>
         </div>
+        
     )
 
 }

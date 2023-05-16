@@ -1,18 +1,7 @@
-body{
-    /* background-color: black; */
-    /* color: #ffffff; */
-    font-family: 'Raleway', sans-serif;
-    padding-top: 60px;
-
-
-}
-.contact__from .form-control{
-    padding: 1.375rem .75rem;
-    line-height: 1.5;
-    color: #ffffff;
-    background: #000;
-    border-radius: 0 !important;
-    border: 1px solid #fff;
-    
-
+.input-text-field div input , textarea {
+    border: 3px solid #cecece;
+    background: transparent;
+    width: 100%;
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
 }

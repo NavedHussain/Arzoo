@@ -16,7 +16,7 @@ const Home = () => {
                     <div className="">
 
                         <p className="max-w-max">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, repellendus, animi quibusdam quo tenetur voluptatum exercitationem modi excepturi alias fuga repellat, itaque dolorem. Pariatur magni amet quia, autem suscipit repellendus!
+                           <h4>If you build a great experience . Visit Best Sneaker Website ARZOO </h4>
                         </p>
                     </div>
                     <NavLink className="max-w-max">
@@ -30,6 +30,7 @@ const Home = () => {
                     <span className=" -z-[1] absolute -top-[20px] -right-[20px] md:block h-[60%] aspect-[3/2] bg-[#ae00ff]"></span>
                 </div>
             </div>
+            
         </div>
         // </Wrapper>
     )

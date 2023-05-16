@@ -16,19 +16,19 @@ const Signup = () => {
                 <div className="flex flex-col  gap-2 text-[12px] text-blue-500">
                     <h1 className="text-2xl pb-4">Sign up</h1>
                     <label htmlFor="Name">Name</label>
-                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="text" name="name" placeholder="Enter Name" />
+                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="text" name="name"/>
 
                     <label htmlFor="Number">Phone Number</label>
-                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="tel" name="phone number" placeholder="Enter Phone Number" />
+                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="tel" name="phone number"  />
                     <label htmlFor="mail">EMAIL </label>
 
-                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="email" name="email" placeholder="Enter Email" />
+                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="email" name="email"/>
                     <label htmlFor="Password">Password</label>
 
-                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="Password" name="password" placeholder="Enter Password" />
+                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="Password" name="password"/>
                     <label htmlFor="Password">Confirm Password</label>
 
-                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="Password" name="Confirm Password" placeholder="Confirm Your Password" />
+                    <input className=" bg-[#ececec] text-xl border-b-[1px] border-black " type="Password" name="Confirm Password"  />
 
 
                     <button type="submit" name="" value="Signup" className="px-12 rounded-[10vw] bg-[#cfcbcb]">Signup </button>
