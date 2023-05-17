@@ -6,7 +6,7 @@ const Cart = () => {
     return (
         <>
             <div className="Landing-wrapper">
-                
+                 
                 <button className="">
                     <NavLink to={"/login"} >Login</NavLink>
                 </button>
