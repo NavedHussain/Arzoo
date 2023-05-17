@@ -1,9 +1,9 @@
 import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
 import CommonContainer from "./CommonContainer";
-import LandingPage from "./pages/LandingPage";
+import Cart from "./pages/CartPage";
 import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
-import Home from "./pages/Home";
+import Home from "./pages/HomePage";
 import Contact from "./pages/ContactPage";
 import "./App.css"
 
@@ -12,25 +12,31 @@ function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path="/"
+          {/* <Route path="/"
             element={
               <CommonContainer>
                 <LandingPage />
               </CommonContainer>
-            } />
-          <Route path="/home"
+            } /> */}
+          <Route path="/"
             element={
               <CommonContainer>
-                 <Home />
+                <Home />
+              </CommonContainer>
+            } />
+          <Route path="/cart"
+            element={
+              <CommonContainer>
+                <Cart />
               </CommonContainer>
             } />
 
           <Route path="/contact"
-          element={
-            <CommonContainer>
-              <Contact/>
-            </CommonContainer>
-          } />
+            element={
+              <CommonContainer>
+                <Contact />
+              </CommonContainer>
+            } />
 
           <Route path="/login"
             element={

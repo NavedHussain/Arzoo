@@ -1,0 +1,17 @@
+.shop-button {
+    padding: .5em;
+    color: white;
+    background: #ae00ff;
+
+}
+
+.Cat-Car-Scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.Cat-Car-Scroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

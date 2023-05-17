@@ -1,10 +1,11 @@
 import Footer from "./components/Footer"
-import Header from "./components/Header"
+import HeaderHome from "./pages/HomePage/1Header"
+// import Header from "./components/Header"
 
 const CommonContainer = ({ children }) => {
     return (
         <>
-            <Header />
+            <HeaderHome />
             {children}
             <Footer />
         </>

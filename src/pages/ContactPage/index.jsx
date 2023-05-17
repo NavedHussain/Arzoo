@@ -20,7 +20,7 @@ function Contact() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eaque, rem sequi, voluptatibus alias velit saepe repellat sit facilis minima totam rerum odit, repellendus ad.
                     </p>
                 </div>
-                <div className="flex flex-col input-text-field md:w-2/3 gap-5">
+                <div className="flex flex-col input-text-field md:w-2/3 w-full gap-5">
                     <div className="flex flex-col md:flex-row gap-5 w-full">
                         <input type="text" placeholder=" Name" />
                         <input type="text" placeholder=" Email" />

@@ -2,11 +2,11 @@ import React from "react";
 import "./style.css"
 import { NavLink } from "react-router-dom";
 
-const LandingPage = () => {
+const Cart = () => {
     return (
         <>
             <div className="Landing-wrapper">
-                LandingPage
+                
                 <button className="">
                     <NavLink to={"/login"} >Login</NavLink>
                 </button>
@@ -16,4 +16,4 @@ const LandingPage = () => {
     )
 }
 
-export default LandingPage
+export default Cart
