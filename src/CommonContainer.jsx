@@ -7,7 +7,7 @@ const CommonContainer = ({ children }) => {
         <>
             <HeaderHome />
             {children}
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
